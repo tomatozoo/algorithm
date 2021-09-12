@@ -38,8 +38,9 @@ class Solution:
                     found = True
                 if sum > target:
                     
-                    sum -= nums[(start+1)]
+                    sum -= nums[(start)]
                     start += 1
+
                 else:
                     end += 1
                     if end < len(nums):
@@ -54,3 +55,4 @@ class Solution:
 
     # 그렇게 left >= right가 되면, return 0
 
+#hi
